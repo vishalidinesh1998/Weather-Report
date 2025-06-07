@@ -44,7 +44,7 @@ function Weather() {
       </button>
       <ul className="space-y-2 text-gray-700">
         <li><h1 className="text-lg">Weather: <span className="font-medium">{fweather}</span></h1></li>
-        <li><h1 className="text-lg">Temperature: <span className="font-medium">{temp} °C</span></h1></li>
+        <li><h1 className="text-lg">Temperature: <span className="font-medium">{temp} °C </span></h1></li>
         <li><h1 className="text-lg">Description: <span className="capitalize font-medium">{desc}</span></h1></li>
       </ul>
     </div>
